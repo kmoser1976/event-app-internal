@@ -7,7 +7,7 @@ on:
 
 env:
   RUN_NUMBER: ${{ github.run_number }}
-  IMAGE: kmoser1976/event-app-external
+  IMAGE: kmoser1976/event-app-internal
 
 jobs:
   build-test_node_project:
